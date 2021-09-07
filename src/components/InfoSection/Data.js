@@ -11,7 +11,7 @@ export const homeObjOne= {
     work to the world through programming. :)',
     newline: false,
     buttonLabel: 'Resume',
-    to:{pathname:'https://www.canva.com/design/DAEo-TXfpSw/EnHmiCHGN2piJJS-DJtH7w/view?utm_content=DAEo-TXfpSw&utm_campaign=designshare&utm_medium=link&utm_source=viewer'},
+    to:{pathname:'https://drive.google.com/file/d/1aPkH7nHDqHc1hQXBhg16hgFt52Vz2DXe/view?usp=sharing'},
     target: "_blank",
     imgStart: false,
     img: aboutmeimg,

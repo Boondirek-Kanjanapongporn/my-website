@@ -28,7 +28,7 @@ const Footer = () =>{
                             <SocialIconLink href="https://github.com/Boondirek-Kanjanapongporn" target="_blank" aria-label="Github">
                                 <FaGithub/>
                             </SocialIconLink>
-                            <SocialIconLink href="www.linkedin.com/in/boondirekk" target="_blank" aria-label="Linkedin">
+                            <SocialIconLink href="https://www.linkedin.com/in/boondirekk" target="_blank" aria-label="Linkedin">
                                 <FaLinkedin/>
                             </SocialIconLink>
                         </SocialIcons>
