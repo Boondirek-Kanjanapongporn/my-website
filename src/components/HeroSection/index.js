@@ -6,6 +6,7 @@ import myimg from '../../images/aboutmecrop.jpg'
 import ImageBack from '../../images/image-city.jpg'
 import ImageBack1 from '../../images/image-city1.jpg'
 import Typical from 'react-typical'
+import Typewriter from 'typewriter-effect'
 
 const HeroSection = ({lightTheme}) => {
     const [hover, setHover] = useState(false);
@@ -31,7 +32,20 @@ const HeroSection = ({lightTheme}) => {
                     <Image src={myimg} lightTheme={lightTheme}/>
                 </ImageWrapper>
                 <HeroContent lightTheme={lightTheme}>
-                    <HeroH1 lightTheme={lightTheme}><Typical loop={Infinity} steps={['Boondirek Kanjanapongporn', 7000,'I am a Developer', 1000]}/></HeroH1>
+                    <HeroH1 lightTheme={lightTheme} id="type">
+                        <Typewriter onInit={(typewriter)=>{
+                                typewriter.typeString("Boondirek Kanjanapongporn")
+                                .pauseFor(7000)
+                                .deleteAll()
+                                .typeString("I am a Developer")
+                                .pauseFor(3000)
+                                .deleteAll()
+                                .start();
+                            }}
+                            options={{
+                                loop: true,
+                              }}/>
+                    </HeroH1>
                     <HeroP lightTheme={lightTheme}>
                         Welcome to my personal website
                     </HeroP>

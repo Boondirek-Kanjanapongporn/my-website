@@ -32,6 +32,8 @@ export const NavbarDetail = styled.div`
 export const ThemeIcon = styled.div`
     padding-left: ${({lightTheme})=>(lightTheme? '25px': '30px')};
     margin-top: 5px;
+    padding:0;
+    margin-left: 35px;
     font-size: ${({lightTheme})=>(lightTheme? '1.8rem': '1.5rem')};
     cursor: pointer;
     color: ${({lightTheme})=>(lightTheme? '#ebbf5d': '#ebbf5d')};
@@ -42,7 +44,7 @@ export const ThemeIcon = styled.div`
     }
 
     @media screen and (max-width: 768px){
-        padding-right: 65px;
+        margin-right: 65px;
     }
 `
 
@@ -98,9 +100,9 @@ export const MobileIcon = styled.div`
         color: ${({lightTheme})=>(lightTheme? '#121212': '#ffffffd9')};
 
         &:hover{
-        transition: all 0.2s ease-in-out;
-        color: #ebbf5d;
-    }
+            transition: all 0.2s ease-in-out;
+            color: #ebbf5d;
+        }
     }
 `;
 
