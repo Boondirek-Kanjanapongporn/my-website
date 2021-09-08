@@ -5,7 +5,6 @@ import { HeroContainer, HeroBg, VideoBg, ImageBg, HeroDetail, ImageWrapper, Imag
 import myimg from '../../images/aboutmecrop.jpg'
 import ImageBack from '../../images/image-city.jpg'
 import ImageBack1 from '../../images/image-city1.jpg'
-import Typical from 'react-typical'
 import Typewriter from 'typewriter-effect'
 
 const HeroSection = ({lightTheme}) => {
