@@ -30,10 +30,10 @@ export const NavbarDetail = styled.div`
 `
 
 export const ThemeIcon = styled.div`
-    padding-left: ${({lightTheme})=>(lightTheme? '25px': '30px')};
+    //padding-left: ${({lightTheme})=>(lightTheme? '25px': '30px')};
     margin-top: 5px;
     padding:0;
-    margin-left: 35px;
+    margin-left: ${({lightTheme})=>(lightTheme? '30px': '35px')};
     font-size: ${({lightTheme})=>(lightTheme? '1.8rem': '1.5rem')};
     cursor: pointer;
     color: ${({lightTheme})=>(lightTheme? '#ebbf5d': '#ebbf5d')};

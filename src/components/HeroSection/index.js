@@ -13,18 +13,24 @@ const HeroSection = ({lightTheme}) => {
         setHover(!hover);
     }
 
-    const getBackgroundImage = () =>{
-        if(lightTheme)
-            return <ImageBg lightTheme={lightTheme} src={ImageBack1}/>
-        else
-            return <ImageBg lightTheme={lightTheme} src={ImageBack}/>;
-    }
+    // const getBackgroundImage = () =>{
+    //     if(!lightTheme)
+    //         return <ImageBg lightTheme={lightTheme} src={ImageBack1}/>
+    //     else
+    //         return <ImageBg lightTheme={lightTheme} src={ImageBack}/>;
+    // }
 
+    const getDarkBackgroundImage = () =>{
+        if(!lightTheme)
+            return <ImageBg lightTheme={lightTheme} src={ImageBack}/>
+    }
+    
     return (
         <HeroContainer id='home'>
             <HeroBg>
                 {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4'/> */}
-                {getBackgroundImage()}
+                {getDarkBackgroundImage()}
+                <ImageBg lightTheme={lightTheme} src={ImageBack1}/>
             </HeroBg>
             <HeroDetail>
                 <ImageWrapper>

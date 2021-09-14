@@ -17,7 +17,7 @@ export const AchievementsData = [
         the disabled can work —using controllers— as the pilot all the while being bedridden. During the competition, \
         our team created a User-inferface prototype of how FILL works and will looks like in the market. In the end, \
         we won the Runner-up prize for this idea'
-    , date:'Date: 03/04/2021'
+    , date:'Date: 14/07/2021 - 10/08/2021'
     , buttonlabelGit:'Github'
     , buttonlabel:'More Detail'
     , toGit:'https://github.com/Boondirek-Kanjanapongporn/FILL'
@@ -39,7 +39,7 @@ export const AchievementsData = [
         a timer display of the latest Covid case infected from that might have been infected from that area. \
         Furthermore, Divoc has an additional feature called Red-zones in which if it detects highly dense areas, it will \
         send warnings to Divoc users in nearby areas. In the end, we won the Popular vote for the idea.'
-    , date:'Date: 03/04/2021'
+    , date:'Date: 29/03/2021 - 30/03/2021'
     , buttonlabelGit:'Github'
     , buttonlabel:'More Detail'
     ,toGit:'https://github.com/Boondirek-Kanjanapongporn/Divoc'
