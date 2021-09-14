@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import Video from '../../videos/video-city.mp4'
 import {ButtonS} from '../ButtonElements'
-import { HeroContainer, HeroBg, VideoBg, ImageBg, HeroDetail, ImageWrapper, Image, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, ImageBg, ImageBg1, HeroDetail, ImageWrapper, Image, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
 import myimg from '../../images/aboutmecrop.jpg'
 import ImageBack from '../../images/image-city.jpg'
 import ImageBack1 from '../../images/image-city1.jpg'
@@ -14,23 +14,30 @@ const HeroSection = ({lightTheme}) => {
     }
 
     // const getBackgroundImage = () =>{
-    //     if(!lightTheme)
+    //     if(lightTheme)
     //         return <ImageBg lightTheme={lightTheme} src={ImageBack1}/>
     //     else
     //         return <ImageBg lightTheme={lightTheme} src={ImageBack}/>;
     // }
 
-    const getDarkBackgroundImage = () =>{
-        if(!lightTheme)
-            return <ImageBg lightTheme={lightTheme} src={ImageBack}/>
-    }
+    // const getBackgroundImage = () =>{
+    //     if(lightTheme)
+    //         return <ImageBg lightTheme={lightTheme} src={ImageBack1}/>
+    // }
+
+    // const getDarkBackgroundImage = () =>{
+    //     if(!lightTheme)
+    //         return <ImageBg lightTheme={lightTheme} src={ImageBack}/>
+    // }
     
     return (
         <HeroContainer id='home'>
             <HeroBg>
                 {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4'/> */}
-                {getDarkBackgroundImage()}
-                <ImageBg lightTheme={lightTheme} src={ImageBack1}/>
+                {/* {getBackgroundImage()}
+                {getDarkBackgroundImage()} */}
+                <ImageBg lightTheme={lightTheme} src={ImageBack}/>
+                <ImageBg1 lightTheme={lightTheme} src={ImageBack1}/>
             </HeroBg>
             <HeroDetail>
                 <ImageWrapper>

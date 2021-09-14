@@ -35,6 +35,18 @@ export const VideoBg = styled.video`
 `
 
 export const ImageBg = styled.img`
+    display: ${({lightTheme})=>(lightTheme? 'none': '')};
+    width:100%;
+    height:100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #232a34;
+    object-position: 0% 0%;
+    opacity: ${({lightTheme})=>(lightTheme? '0.8':'0.5')};
+`
+
+export const ImageBg1 = styled.img`
+    display: ${({lightTheme})=>(lightTheme? '': 'none')};
     width:100%;
     height:100%;
     -o-object-fit: cover;
