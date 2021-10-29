@@ -10,7 +10,7 @@ const Achievements = ({lightTheme, togglelight}) => {
 
     const getBackgroundImage = () =>{
         if(lightTheme)
-            return <ImageBg lightTheme={lightTheme} src={ImageBack1}/>
+            return <ImageBg lightTheme={lightTheme} src={ImageBack1}/>;
         else
             return <ImageBg lightTheme={lightTheme} src={ImageBack}/>;
     }

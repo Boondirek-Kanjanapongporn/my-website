@@ -10,7 +10,7 @@ const Navbar = ({toggle, lightTheme, togglelight}) => {
     const navlinkitems = Navbardata.map((item, index)=>{
         return (
             <NavItem>
-                <NavLinks lightTheme={lightTheme} key={index} to={item.to} smooth={true} duration={800} spy={true} exact='true' offset={-80}>{item.data}</NavLinks>
+                <NavLinks lightTheme={lightTheme} key={index} to={item.to} smooth={true} duration={800} spy={true} exact='true' offset={-79}>{item.data}</NavLinks>
             </NavItem>
         )
     })
