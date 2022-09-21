@@ -47,10 +47,16 @@ const HeroSection = ({lightTheme}) => {
                     <HeroH1 lightTheme={lightTheme} id="type">
                         <Typewriter onInit={(typewriter)=>{
                                 typewriter.typeString("Boondirek Kanjanapongporn")
-                                .pauseFor(7000)
+                                .pauseFor(4000)
                                 .deleteAll()
                                 .typeString("I am a Developer")
-                                .pauseFor(3000)
+                                .pauseFor(1000)
+                                .deleteAll()
+                                .typeString("A Student")
+                                .pauseFor(1000)
+                                .deleteAll()
+                                .typeString("And simply loves Coding!!")
+                                .pauseFor(1000)
                                 .deleteAll()
                                 .start();
                             }}
@@ -59,7 +65,7 @@ const HeroSection = ({lightTheme}) => {
                               }}/>
                     </HeroH1>
                     <HeroP lightTheme={lightTheme}>
-                        Welcome to my personal website
+                        Welcome to my personal website!
                     </HeroP>
                     <HeroBtnWrapper>
                         <ButtonS to="projects" lightTheme={lightTheme} onMouseEnter={onHover} onMouseLeave={onHover}
