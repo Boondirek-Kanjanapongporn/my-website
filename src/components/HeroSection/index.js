@@ -47,7 +47,7 @@ const HeroSection = ({lightTheme}) => {
                     <HeroH1 lightTheme={lightTheme} id="type">
                         <Typewriter onInit={(typewriter)=>{
                                 typewriter.typeString("Boondirek Kanjanapongporn")
-                                .pauseFor(4000)
+                                .pauseFor(3000)
                                 .deleteAll()
                                 .typeString("I am a Developer")
                                 .pauseFor(1000)
