@@ -11,7 +11,7 @@ export const About= {
     Please feel free to check my Resume, Educational Background, Work Experiences, and Projects below! :)',
     newline: false,
     buttonLabel: 'Resume',
-    to:{pathname:'https://drive.google.com/file/d/1kk1L-GMkzZSOy9teice05X1k6kwiw6Ot/view?usp=sharing'},
+    to:{pathname:'https://drive.google.com/file/d/1M7TEjsPUL7Tqsx66iu1KyHIXqwKrLe5F/view?usp=sharing'},
     target: "_blank",
     imgStart: false,
     img: aboutmeimg,
