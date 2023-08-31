@@ -4,14 +4,12 @@ export const About= {
     id:'about',
     topLine: 'About me',
     headLine: 'Software Engineer x Developer',
-    description: 'Welcome to my little corner of the world!! My nickname is Boon and I am currently a \
-    junior student at the University of Glasgow— majoring in Computer Science. \
-    I am extremely motivated to constantly develop my skills and grow professionally. \
-    I hope that one day I can contribute my work to the world through programming. \
-    Please feel free to check my Resume, Educational Background, Work Experiences, and Projects below! :)',
+    description: 'Hi readers, my nickname is Boon and I am currently a \
+    senior student at the University of Glasgow— majoring in Software Engineering, Computer Science. \
+    Please feel free to check my Resume and other details below! :)',
     newline: false,
     buttonLabel: 'Resume',
-    to:{pathname:'https://drive.google.com/file/d/1M7TEjsPUL7Tqsx66iu1KyHIXqwKrLe5F/view?usp=sharing'},
+    to:{pathname:'https://drive.google.com/file/d/1nhfgAUE6rK5Xas0dlIk3xT71U2n8ovD5/view?usp=sharing'},
     target: "_blank",
     imgStart: false,
     img: aboutmeimg,
@@ -21,9 +19,9 @@ export const About= {
 export const Skills= {
     id:'skills',
     topLine: 'Programming Languages & Skills',
-    headLine: 'Python, C, C++, Java, JavaScript, HTML5, CSS, SQL, Dart',
+    headLine: 'Python, Java, TypeScript, JavaScript, SQL, C, C++, Dart, R',
     description: 'Additional Skills: Leadership, Interpersonal, Problem-solving, Management, Teamplayer',
-    description1: 'Frameworks/Modules: React.js, Next.js, Cypress.js, Qt, Robot, Docker, OpenCV, Raylib, Pygame',
+    description1: 'Frameworks/Modules: Spring Boot, React.js, Next.js, Cypress.js, Qt, Docker, OpenCV, Raylib, Pygame',
     description2: 'Languages: Thai (Native), English (Fluent)',
     newline: true,
     buttonLabel: 'Achievements',
