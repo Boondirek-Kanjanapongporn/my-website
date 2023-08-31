@@ -67,31 +67,32 @@ export const WorkBox= styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     border-radius: 20px;
-    border: 5px solid #ebbf5d;
+    border: 3px solid #ebbf5d;
     padding: 5px 10px;
     margin-bottom: 15px;
+    margin-right: 15px;
     width:100%;
     transition: all 0.2s ease-in-out;
 
     &:hover{
-        background: ${({lightTheme})=>(lightTheme?'#ebbf5d':'#dfa31c')};
+        border-color: ${({lightTheme})=>(lightTheme?'#121212':'#f1d28e')};
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
 `
 
 export const Subtitle= styled.p`
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 24px;
     color: ${({lightTheme})=>(lightTheme? '#121212': '#ffffffd9')};
 `
 
 export const Subtitle1= styled.p`
-    margin-bottom: 10px;
-    font-size: 15px;
-    line-height: 24px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 150%;
     color: ${({lightTheme})=>(lightTheme? '#121212': '#ffffffd9')};
 `
 
